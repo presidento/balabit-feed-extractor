@@ -77,4 +77,4 @@ If you have found this script useful and wanted to improve, feel to free to do i
 
 # License
 
-The script and the additional resources are licensed according to the GNU General Public License 2. For more information see the `LICENSE.txt` file.
+The script and the additional resources are licensed according to the GNU General Public License 2. For more information see the `LICENSE` file.

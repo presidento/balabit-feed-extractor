@@ -2,9 +2,9 @@
 
 """RSS and Atom extractor script.
 
-(c) Máté Farkas, 2015-05
+(c) Máté Farkas, May 2015
 
-For more detailed information see the readme.md file"""
+For more detailed information see the README.md file"""
 
 import argparse
 import json
