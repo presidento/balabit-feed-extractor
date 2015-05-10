@@ -1,0 +1,10 @@
+{
+    "atom": [
+        "http://example.net/feed", 
+        "http://t.co/asdfsf23fdsw234"
+    ], 
+    "rss": [
+        "http://example.com/rss.xml", 
+        "https://example.org/rss2.rss"
+    ]
+}
