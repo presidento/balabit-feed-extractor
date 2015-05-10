@@ -73,6 +73,7 @@ Without the correct `type` attribute we are not able to detect that in reality t
 
 # Contribution
 
+If you have found this script useful and wanted to improve, feel to free to do it. I will be thankful if you send me your comments or patches, even your critiques. (Please don't blame me at the style of the testing cases, I'm newbe at Python unit testing.) And consider that I think after some weeks it will become a yet another abandonware program. So forking is allowed, but constantly pushing and bothering the original creator is not. :)
 
 # License
 
