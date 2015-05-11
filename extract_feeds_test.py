@@ -136,7 +136,7 @@ class TestMain(unittest.TestCase):
         os.chdir(os.path.dirname(os.path.abspath(__file__)) + '/test_files/')
         try:
             os.unlink('output.json')
-        except FileNotFoundError:
+        except:
             pass
 
         main([])
