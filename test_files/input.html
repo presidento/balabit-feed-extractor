@@ -35,7 +35,7 @@
 В тумане спрятанного солнца,
 Кругом шумел.
 
-<A HREF="https://example.org/rss2.rss" TYPE="APPLICATION/RSS+XML" TARGET="_blank">RSS 2 link</A>
+<A HREF="https://example.org/rss2.rss" TITLE="WILL THE > CHARACTER BREAK IT?" TYPE="APPLICATION/RSS+XML" TARGET="_blank">RSS 2 link</A>
 
 ಬಾ ಇಲ್ಲಿ ಸಂಭವಿಸು ಇಂದೆನ್ನ ಹೃದಯದಲಿ 
 ನಿತ್ಯವೂ ಅವತರಿಪ ಸತ್ಯಾವತಾರ
@@ -48,4 +48,11 @@
    var link2 = '<a href="a" type="application/atom+xml">This is not a HTML element.</a>';
 </script>
 
-</pre></body></html>
+<![CDATA[
+This should be not extracted:
+<a href="http://this.is.not.here/rss" type="application/rss+xml">LINK</a>
+It is in a CDATA section.
+]]>
+
+</pre>
+</body></html>
