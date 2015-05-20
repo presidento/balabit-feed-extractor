@@ -55,7 +55,7 @@ class Feeds:
 def get_file_contents(filename):
     """Read a text file to a string using the right encoding.
 
-    Or at leash a valid encoding with the capability to later 
+    Or at least a valid encoding with the capability to later 
     parse the string for ascii HTML tags.
     """
 
@@ -115,7 +115,7 @@ def parse_feeds(text):
 def main(argv):
     parser = argparse.ArgumentParser(
         description='Extract RSS and Atom feed links from input.html to output.json.',
-        epilog='For more information see the readme.md file.'
+        epilog='For more information see the README.md file.'
     )
     parser.add_argument('--indent', action='store_true',
                        help='indent the json file')
